@@ -1,0 +1,24 @@
+{
+  "name": "빽햄 고객용 차량 관리 앱",
+  "short_name": "빽햄",
+  "description": "빽햄 차량 관리 요금 및 서비스 안내",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#071426",
+  "theme_color": "#071426",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

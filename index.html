@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#071426">
+<meta name="description" content="빽햄 프리미엄 차량 관리 고객용 모바일 웹앱">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="빽햄">
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="apple-touch-icon" href="/icons/icon-192.png">
+<link rel="icon" href="/icons/icon-192.png">
+<link rel="stylesheet" href="/styles.css">
+<title>빽햄 | 고객용 모바일 앱</title>
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#home"><span class="brand-ko">빽햄</span><span class="brand-en">B B A E K H A M</span></a>
+  <a class="top-call" href="tel:01058147796"><span>☎</span> 전화 상담</a>
+</header>
+<main>
+<section class="hero" id="home">
+  <img class="hero-image" src="/assets/hero-carwash.jpg" alt="푸른 조명 아래 세차 중인 고급 차량">
+  <div class="hero-overlay"></div>
+  <div class="hero-brandline"><span>빽햄</span><small>새 차도, 관리도<br><b>빽햄</b>과 함께하세요</small></div>
+  <div class="hero-content">
+    <p class="eyebrow">PREMIUM CAR CARE</p>
+    <h1>새 차가 아닌<br><em>새차로</em></h1>
+    <p class="hero-sub">더 깨끗하게, 더 빛나게.</p>
+    <div class="hero-actions">
+      <a class="main-cta" href="#plans">내 차 요금 확인 <span>↓</span></a>
+      <a class="round-call" href="tel:01058147796" aria-label="전화 상담">☎</a>
+    </div>
+  </div>
+  <div class="hero-foot">BBAEKHAM · PREMIUM VEHICLE CARE</div>
+</section>
+
+<section class="intro section" id="service">
+  <div class="section-heading"><p class="eyebrow blue">BBAEKHAM SERVICE</p><h2>차량 관리의 새로운 기준</h2><p>차량에 맞는 관리 플랜으로 꾸준하고 깔끔하게.</p></div>
+  <div class="service-grid">
+    <article class="service-card"><span class="service-icon">✧</span><b>프리미엄 손세차</b><small>꼼꼼하고 세심한 차량 관리</small></article>
+    <article class="service-card"><span class="service-icon">◈</span><b>실내 클리닝</b><small>쾌적한 실내 환경 관리</small></article>
+    <article class="service-card"><span class="service-icon">♧</span><b>추가 케어</b><small>필요한 옵션을 맞춤 상담</small></article>
+  </div>
+</section>
+
+<section class="plans section" id="plans">
+  <div class="section-heading"><p class="eyebrow blue">PRICE GUIDE</p><h2>내 차 관리 요금 확인</h2><p>차량 종류와 이용 플랜을 선택해 보세요.</p></div>
+  <div class="price-box">
+    <label for="vehicle">차량 종류</label>
+    <select id="vehicle">
+      <option value="compact">소형 · 중형</option><option value="sedan">대형 세단</option><option value="suv">SUV</option><option value="large">대형 SUV · 카니발</option>
+    </select>
+    <div class="tabs" role="group" aria-label="관리 플랜">
+      <button class="tab active" data-plan="light" type="button">라이트<small>월 1회</small></button>
+      <button class="tab" data-plan="smart" type="button">스마트<small>격주</small></button>
+      <button class="tab" data-plan="perfect" type="button">퍼펙트<small>월 4회</small></button>
+    </div>
+    <div class="price-display" aria-live="polite">
+      <div><span id="carName">소형 · 중형</span><small id="planName">라이트 · 월 1회</small></div>
+      <strong id="price">31,900<small>원</small></strong>
+    </div>
+    <p class="hint">선택한 차량과 플랜의 요금입니다.</p>
+  </div>
+  <div class="table-scroll">
+    <table>
+      <thead><tr><th>구분</th><th>라이트<br><small>월 1회</small></th><th>스마트<br><small>격주</small></th><th>퍼펙트<br><small>월 4회</small></th></tr></thead>
+      <tbody>
+        <tr><th>소형 · 중형</th><td>31,900원</td><td>44,000원</td><td><del>88,000원</del><b>66,000원</b></td></tr>
+        <tr><th>대형 세단</th><td>35,900원</td><td>49,500원</td><td><del>99,000원</del><b>77,000원</b></td></tr>
+        <tr><th>SUV</th><td>39,900원</td><td>55,000원</td><td><del>110,000원</del><b>88,000원</b></td></tr>
+        <tr><th>대형 SUV<br>· 카니발</th><td>43,900원</td><td>60,500원</td><td><del>120,000원</del><b>99,000원</b></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="note">※ 요금은 전달해 주신 빽햄 홍보 이미지 기준으로 입력했습니다. 실제 차량 분류 및 적용 조건은 상담 시 확인해 주세요.</p>
+</section>
+
+<section class="options section" id="options">
+  <div class="section-heading"><p class="eyebrow blue">OPTIONAL CARE</p><h2>추가 케어 옵션</h2><p>필요한 서비스를 선택해 문의해 주세요.</p></div>
+  <div class="option-list">
+    <div><span>실내 세차</span><b>25,000원</b></div>
+    <div><span>페인트칩드 케어</span><b>10,000원</b></div>
+    <div><span>유막 제거</span><b>50,000원</b></div>
+    <div><span>발수 왁스</span><b>20,000원</b></div>
+  </div>
+  <p class="note">※ 옵션 명칭과 가격은 제공해 주신 홍보 이미지에 기재된 내용을 반영했습니다.</p>
+</section>
+
+<section class="contact section" id="contact">
+  <p class="eyebrow">CONTACT BBAEKHAM</p>
+  <h2>더 나은 차량 관리,<br>빽햄과 시작하세요.</h2>
+  <p>상담 및 예약 문의</p>
+  <a class="phone-number" href="tel:01058147796">010-5814-7796</a>
+  <a class="contact-button" href="tel:01058147796">전화 예약하기 <span>↗</span></a>
+  <small class="hours">운영시간 PM 6:00 ~ AM 5:00 · 연중무휴</small>
+</section>
+</main>
+<nav class="bottom-nav" aria-label="주요 메뉴">
+  <a class="nav-item selected" href="#home"><span>⌂</span>홈</a>
+  <a class="nav-item" href="#plans"><span>▤</span>요금표</a>
+  <button class="nav-item" id="appInstallNav" type="button"><span>▣</span>앱 설치</button>
+  <a class="nav-item" href="tel:01058147796"><span>☎</span>전화 예약</a>
+</nav>
+<div class="install-tip" id="installTip" hidden>
+  <button class="tip-close" id="tipClose" aria-label="닫기">×</button>
+  <b>빽햄을 홈 화면에 추가하세요</b>
+  <p id="installMessage">브라우저 공유 메뉴에서 ‘홈 화면에 추가’를 선택하면 앱처럼 실행할 수 있어요.</p>
+  <button id="installAction" class="tip-action" type="button">확인</button>
+</div>
+<script src="/app.js"></script>
+</body>
+</html>
